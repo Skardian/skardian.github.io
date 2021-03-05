@@ -1,8 +1,9 @@
 baseURL = "https://skardian.io/"
-defaultContentLanguage = "es"
-languageCode = "es"
+defaultContentLanguage = "en"
+languageCode = "en"
 title = "Skardian.io"
 theme = "uBlogger"
+enableEmoji = true
 
 
 [params]
