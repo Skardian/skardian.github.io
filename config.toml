@@ -9,6 +9,43 @@ enableEmoji = true
 [params]
   # uBlogger theme version
   version = "1.3.X"
+[params.home]
+  [params.home.profile]
+    enable = true
+    gravatarEmail = "jose.carlos.padial@gmail.com"
+    title = "Skardian | Hablo de cosas"
+    subtitle = "Hablo de lo que hago y hago las cosas de las que hablo"
+    social = true
+
+[params.social]
+  Twitter = "skardian"
+  Instagram = "skardian"
+  Twitch = "skardian"
+  GitHub = "skardian"
+  RSS = true
+
+[params.footer]
+  hugo = false
+  author = true
+    # Site creation time
+  since = 2021
+  copyright = true
+  license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+
+[params.page]
+  theme = "full"
+  [params.page.toc]
+    enable = false
+
+[params.search]
+  enable = true
+  type = "lunr"
+  contentLength = 4000
+  placeholder = ""
+  maxResultLength = 10
+  snippetLength = 30
+  highlightTag = "em"
+
 
 [menu]
   [[menu.main]]
@@ -41,3 +78,6 @@ enableEmoji = true
   [markup.highlight]
     # false is a necessary configuration
     noClasses = false
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
