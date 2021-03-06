@@ -2,7 +2,7 @@ baseURL = "https://skardian.io/"
 defaultContentLanguage = "en"
 languageCode = "en"
 title = "Skardian.io"
-theme = "uBlogger"
+theme = ["hugo-redirect","uBlogger"]
 enableEmoji = true
 
 
