@@ -13,8 +13,8 @@ enableEmoji = true
   [params.home.profile]
     enable = true
     gravatarEmail = "jose.carlos.padial@gmail.com"
-    title = "Skardian | Hablo de cosas"
-    subtitle = "Hablo de lo que hago y hago las cosas de las que hablo"
+    title = "Skardian | Hago cosas"
+    subtitle = "¡Holabuenas! Esto no es un blog de tecnología, es un espacio para hablar de mis cosas."
     social = true
 
 [params.social]
