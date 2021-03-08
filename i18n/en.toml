@@ -1,0 +1,2 @@
+[poweredBySome]
+  other = "Powered by {{ .Hugo }} and {{ .Theme }}"
