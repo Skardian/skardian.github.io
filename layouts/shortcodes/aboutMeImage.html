@@ -1,0 +1,29 @@
+<style>
+  .aboutMeImage {
+  heigth: 220px;
+  width: 220px;
+  border-radius: 50%;
+  border: 2px solid #000000;
+  box-shadow: 3px 4px #404040;  
+}
+.aboutMeCenterHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+}
+.aboutMeCenterImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+</style>
+<div>
+  <h1 class="aboutMeCenterHeader">{{.Get "header"}}</h1>
+  <img class="aboutMeImage aboutMeCenterImage" src="https://www.gravatar.com/avatar/02259d6ef787839287970f11236c9b78?s=220" />
+</div>
